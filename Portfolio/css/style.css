@@ -1,5 +1,4 @@
-:root
-{
+:root{
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
@@ -7,13 +6,13 @@
     --text-black-700:#504e70;
 }
 
-body
-{
+body{
     line-height: 1.5;
     font-size: 16px;
     font-family: 'Poppins', sans-serif;
 }
 
+/* universal selector */
 *
 
 {
@@ -24,46 +23,86 @@ body
     box-sizing: border-box;
 }
 
-::before; ::after
-{
+::before; ::after{
     box-sizing: border-box;
 }
 
-ul
-{
+ul{
     list-style:none;
 }
 
-.section
-{
+.section{
     background:var(--bg-black-900);
     min-height: 100vh;
-    display: block;
-    position: fixed;
-    left: 70px;
+    display: block; 
     padding:0 30px ;
     top: 0;
     right: 0;
     z-index: 0;
     opacity: 1;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.main-content{
+    padding-left: 270px;
 
 }
 
-.padd-15
-{
+.padd-15{
     padding-left: 15px;
     padding-right: 15px;
 
 }
-.container
-{
+
+.container{
     max-width: 1100px;
     width: 100%;   
     margin: auto;
 }
 
-.row
-{
+.section .container{
+    padding-top: 60px;
+    padding-bottom: 70px;
+}
+
+.section-title{
+    flex: 00 100%;
+    max-width: 100%;
+    margin-bottom:60px;
+}
+
+.section-title h2{
+    font-zize: 40px;
+    color: var(--text-black-900);
+    font-weight:700;
+    position: relative;
+}
+
+.section-title h2::before{
+    content:"";
+    height:4px;
+    width:50px;
+    background-color:var(--skin-color);
+    position:absolute;
+    top:100%;
+    left:0;
+}
+
+.section-title h2::after{
+    content:"";
+    height:4px;
+    width:25px;
+    background-color:var(--skin-color);
+    position:absolute;
+    top:100%;
+    left:0;
+    margin-top: 8px;
+}
+
+.row{
     display: flex;
     flex-wrap: wrap;
     margin-left: 15px;
@@ -72,8 +111,7 @@ ul
 
 }
 
-.btn
-{
+.btn{
     font-size: 16px;
     font-weight: 500;
     padding: 12px 35px;
@@ -87,15 +125,13 @@ ul
 
 }
 
-.btn:hover
-{
+.btn:hover{
     transform: scale(1.05);
 }
 
 
 /* ASIDE */
-.aside
-{
+.aside{
     width: 270;
     background: var(--bg-black-100);
     position: fixed;
@@ -110,8 +146,7 @@ ul
     z-index: 10;
 }
 
-.aside .logo
-{
+.aside .logo{
     position: absolute;
     top: 50px;
     font-size: 30px;
@@ -119,8 +154,7 @@ ul
     
 }
 
-.aside .logo a
-{
+.aside .logo a{
     color: var(--text-black-900);
     font-weight: 700;
     padding: 15px 20px;
@@ -129,14 +163,12 @@ ul
     position: relative;
 }
 
-.aside .logo a span
-{
+.aside .logo a span{
     font-family: 'Clicker Script', cursive;
     font-family: 40px;
 }
 
-.aside .logo a::before
-{
+.aside .logo a::before{
     content: : '';
     position: absolute;
     width: 20px;
@@ -147,8 +179,7 @@ ul
     left: 0;
 }
 
-.aside .logo a::after
-{
+.aside .logo a::after{
     content: : '';
     position: absolute;
     width: 20px;
@@ -159,8 +190,7 @@ ul
     right: 0;
 }
 
-.aside .nav-toggler
-{
+.aside .nav-toggler{
     height: 40px;
     width: 45px;
     border: 1 px solid var(--bg-black-50);
@@ -175,8 +205,7 @@ ul
     justify-content:center;
 }
 
-.aside .nav-toggler span
-{
+.aside .nav-toggler span{
     height: 2px;
     width: 18px;
     background-image: var(--skin-color);
@@ -184,8 +213,7 @@ ul
     position: relative;
 }
 
-.aside .nav-toggler span::before
-{
+.aside .nav-toggler span::before{
     content: : '';
     position: absolute;
     width: 18px;
@@ -196,8 +224,7 @@ ul
 
 }
 
-.aside .nav-toggler span::after
-{
+.aside .nav-toggler span::after{
     content: : '';
     position: absolute;
     width: 18px;
@@ -208,20 +235,17 @@ ul
 
 }
 
-.aside .nav
-{
+.aside .nav{
     margin-top: 50px;
 
 }
 
-.aside .nav li
-{
+.aside .nav li{
     margin-bottom: 20px;
     display: block;
 }
 
-.aside .nav li a
-{
+.aside .nav li a{
     font-size: 16px;
     font-weight: 600;
     display: block;
@@ -230,47 +254,40 @@ ul
     padding: 5px 15px;
 }
 
-.aside .nav li a.active
-{
+.aside .nav li a.active{
     color: var(--skin-color);
 }
 
-.aside .nav li a i 
-{
+.aside .nav li a i{
     margin-right: 15px;
 
 }
 
 /* home */
-.home
-{
+.home{
     min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
 
-.home .home-info
-{
+.home .home-info{
     flex:0 0 60%;
     max-width: 60%;
 }
 
-h3.hello
-{
+h3.hello{
     font-size: 28px;
     margin: 15px 0;
 }
 
-h3.hello span
-{
+h3.hello span{
     font-family:'Clicker Script';
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
 }
 
-h3.my-profession
-{
+h3.my-profession{
     font-size: 30px;
     margin: 15px 0;
 }
@@ -280,23 +297,20 @@ h3.my-profession
     color: var(--skin-color);
 }
 
-.home-info p
-{
+.home-info p{
     margin-bottom: 70px;
     font-size: 18px;
     color: var(--text-black-700);
 }
 
-.home .home-img
-{
+.home .home-img{
     flex:0 0 40% ;
     max-width: 40%;    
     text-align: center;
-    position: relative;
+    position: relative;    
 }
 
-.home-img::after
-{
+.home-img::after{
     content: '';
     position: absolute;
     height: 80px;
@@ -307,19 +321,60 @@ h3.my-profession
     bottom: -30px;
 }
 
-.home-img::before
-{
+.home-img::before{
     content: '';
     position: absolute;
     height: 80px;
     width: 80px;
     border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);    
     left: -20px;
     top: -40px;
 }
 
-.home .home-img img
-{
+.home .home-img img{
+    margin:auto;
+    border-radius:5px;
     height: 400px;
 }
+
+/* About */
+.about .about-content{
+ flex: 0 0 100%;
+ max-width: 100%;
+}
+
+.about .about-content .about-text{
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.about .about-content .about-text h3{
+    font-size:24px;
+    margin-bottom:15px;
+    font-weight: 700;
+    color: var(--text-black-900);
+}
+
+.about .about-content .about-text h3 span{
+    color: var(--skin-color);
+}
+
+.about .about-content .about-text p{
+    font-size:16px;
+    line-height:25px;
+    color: var(--text-black-700);
+}
+
+.about .about-content .personal-info{
+    flex: 0 0 60%;
+    max-width: 60%;
+    background-color: red;
+}
+
+   
+   
+   
+   
+   
+   
