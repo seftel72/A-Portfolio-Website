@@ -46,8 +46,7 @@ ul{
 }
 
 .main-content{
-    padding-left: 125px;
-
+   padding-left: 270px;
 }
 
 .padd-15{
@@ -57,7 +56,7 @@ ul{
 }
 
 .container{
-    max-width: 1100px;
+    max-width: 90rem;
     width: 100%;   
     margin: auto;
 }
@@ -68,7 +67,7 @@ ul{
 }
 
 .section-title{
-    flex: 00 100%;
+    flex: 0 0 100%;
     max-width: 100%;
     margin-bottom:60px;
 }
@@ -128,15 +127,20 @@ ul{
     transform: scale(1.05);
 }
 
+.shadow-dark{
+    box-shadow: 0 0 20px rgba(48, 46, 77, 0.15);
+}
+
 
 /* ASIDE */
+
 .aside{
-    width: 270;
+    width: 270px;
     background: var(--bg-black-100);
     position: fixed;
     left: 0;
     top: 0;
-    padding: 30px ;
+    padding: 10px ;
     height: 100%;
     border-right: 1px solid var(--bg-black-50);
     display: flex;
@@ -451,8 +455,7 @@ position: relative;
     flex: 0 0 50%;
     max-width: 50%;
     margin-top: 30px;
-    color: var(--text-black-900);
-    background-color: red;
+    color: var(--text-black-900);    
 }
 
 .about .about-content h3.title{
@@ -465,8 +468,26 @@ position: relative;
 .about .about-content .timeline-box{
     flex: 0 0 100%;
     max-width: 100%;
-    background-color: red;
 }
+
+.about .about-content .timeline{
+    background-color: var(--bg-black-100);
+    padding: 30px 15px;
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.about .about-content .timeline .timeline-item {
+    position: relative;
+    padding-left: 37px;
+    padding-bottom: 50px;
+}
+
+.about .about-content .timeline .timeline-item:last-child {
+padding-bottom: 0;
+
 
 
    
