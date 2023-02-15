@@ -656,6 +656,7 @@ position: relative;
     flex: 0 0 100%;
     max-width: 25%;
     text-align: center;
+    margin-bottom: 60PX;
 }
 
 .contact .contact-info-item .icon {
