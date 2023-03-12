@@ -9,7 +9,7 @@
 body{
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Libre Caslon Display', sans-serif;
 }
 
 /* universal selector */
@@ -165,11 +165,11 @@ ul{
 }
 
 .aside .logo a span{
-    font-family: 'Clicker Script', cursive;
+    font-family: 'Raleway', sans-serif;
     font-family: 40px;
 }
 
-.aside .logo a::before{
+.aside .logo a::before {
     content: : '';
     position: absolute;
     width: 20px;
@@ -282,7 +282,7 @@ h3.hello{
 }
 
 h3.hello span{
-    font-family:'Clicker Script';
+    font-family:'Raleway';
     font-size: 30px;
     font-weight: 700;
     color: var(--skin-color);
@@ -315,8 +315,8 @@ h3.my-profession{
 .home-img::before{
     content: '';
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 70px;
+    width: 70px;
     border-top: 10px solid var(--skin-color);
     border-left: 10px solid var(--skin-color);    
     left: 20px;
@@ -326,8 +326,8 @@ h3.my-profession{
 .home-img::after{
     content: '';
     position: absolute;
-    height: 150px;
-    width: 150px;
+    height: 70px;
+    width: 70px;
     border-bottom: 10px solid var(--skin-color);
     border-right: 10px solid var(--skin-color);
     right:  20px;
@@ -337,7 +337,7 @@ h3.my-profession{
 .home .home-img img{
     margin:auto;
     border-radius:5px;
-    height: 400px;
+    height: 300px;
 }
 
 /* About */
