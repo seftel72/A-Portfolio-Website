@@ -237,8 +237,7 @@ ul{
 }
 
 .aside .nav{
-    margin-top: 50px;
-
+   /* margin-top: 50px;*/
 }
 
 .aside .nav li{
@@ -305,40 +304,44 @@ h3.my-profession{
 }
 
 .home .home-img{
-    flex:0 0 40% ;
+    flex:0 0 40%;
     max-width: 40%;    
-    text-align: center;
-    position: relative;    
-}
-
-
-.home-img::before{
-    content: '';
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    border-top: 10px solid var(--skin-color);
-    border-left: 10px solid var(--skin-color);    
-    left: 20px;
-    top: -50px;    
-}
-
-.home-img::after{
-    content: '';
-    position: absolute;
-    height: 70px;
-    width: 70px;
-    border-bottom: 10px solid var(--skin-color);
-    border-right: 10px solid var(--skin-color);
-    right:  20px;
-    bottom:-50px;
+    text-align: center;    
+    position: relative;
+    background: orangered;
 }
 
 .home .home-img img{
     margin:auto;
     border-radius:5px;
-    height: 300px;
+    height: 361px;
+    width: 300px;
 }
+
+.home-img::before{
+    content:'';
+    background: orangered;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-top: 5px solid var(--skin-color);
+    border-left: 5px solid var(--skin-color); 
+    left: 0px;
+    top:0px;     
+}
+
+.home-img::after{
+    content:'';
+    background: orangered;
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-bottom: 5px solid var(--skin-color);
+    border-right: 5px solid var(--skin-color);
+    right: 0px;
+    bottom:0px;
+}
+
 
 /* About */
 .about .about-content{
