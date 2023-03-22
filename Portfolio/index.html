@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
   <head name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8" />
-
-    <!--Link me style sheets-->
-    <link rel="stylesheet" type="text/css" href="css/style.css" />
-    <link rel="stylesheet" type="text/css" href="css/color.css" />
+    <meta charset="utf-8" />  
 
     <!-- 
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@300;400;500;600;700&display=swap"/>
-    
-    -->    
-
-    <!--Link Google fonts and Icons-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Caslon+Display">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@300;400;500;600;700&display=swap"/>    
+    -->      
     
     <title>Brad Seftel</title>
+
+     <!--Link style sheets-->
+     <!--Link Google fonts and Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Caslon+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">  
+    <link rel="stylesheet" type="text/css" href="css/style-switcher.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/color-1.css" />
 
   </head>
 
@@ -62,7 +61,7 @@
                 <a href="#contact" class="btn hire-me">Hire me</a>
               </div>  
               <div class="home-img padd-15">
-                <img src="images/hero.jpeg" alt="">
+                <img src="images/bradBioPic.jpg" alt="">
               </div>
             </div>
           </div>
@@ -500,6 +499,25 @@
       <!--======== Main Content End ========-->
     </div>
     <!--======== Main Container End ========-->
+
+    <!--======== Style Switcher Start ========-->
+      <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+          <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+          <i class="fas fa-moon"></i>
+        </div>
+          <h4>Theme Colors</h4>
+          <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+          </div>
+      </div>
+    <!--======== Style Switcher End ========-->
 
     <!--======== JS Files ======== -->
     <script src="js/script.js"></script>
