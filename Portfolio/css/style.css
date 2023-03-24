@@ -6,6 +6,14 @@
     --text-black-700: grey;
     --text-black-900:black;    
 }
+body.dark{
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    
+    --text-black-700:#ffffff;
+    --text-black-900:#e9e9e9; 
+}
 
 body{
     line-height: 1.5;
@@ -223,7 +231,6 @@ ul{
     backround: var(--skin-color);
     top:6px;
     left: 0px;
-
 }
 
 .aside .nav-toggler span::after{
@@ -234,7 +241,6 @@ ul{
     backround: var(--skin-color);
     top:6px;
     left: 0px;
-
 }
 
 .aside .nav{
@@ -301,21 +307,22 @@ h3.my-profession{
 .home-info p{
     margin-bottom: 70px;
     font-size: 18px;
-    color: var(--text-black-700);
+    color: var(--text-black-700);    
 }
 
 .home .home-img{
     flex:0 0 40%;
     max-width: 40%;    
     text-align: center;    
-    position: relative;
+    position: relative;   
 }
 
 .home .home-img img{
     margin:auto;
     border-radius:5px;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 75%;
+    max-height: 75%;
+    
 }
 
 .home-img::before{
@@ -324,8 +331,7 @@ h3.my-profession{
     height: 50px;
     width: 50px;
     border-top: 5px solid var(--skin-color);
-    border-left: 5px solid var(--skin-color); 
-    left: 0px;
+    border-left: 5px solid var(--skin-color);    
     top:0px;     
 }
 
@@ -335,8 +341,7 @@ h3.my-profession{
     height: 50px;
     width: 50px;
     border-bottom: 5px solid var(--skin-color);
-    border-right: 5px solid var(--skin-color);
-    right: 0px;
+    border-right: 5px solid var(--skin-color);    
     bottom:0px;
 }
 

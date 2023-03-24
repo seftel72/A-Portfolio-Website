@@ -6,15 +6,16 @@
     width: 200px;
     border: 1px solid var(--bg-black-50);
     background: var(--bg-black-100);
-    z-index: 1001;
+    z-index: 101;
     border-radius: 5px;
     transition: all 0.3s ease;
+    /* close switcher off screen*/
     transform: translateX(100%);
 
 }
 
 .style-switcher.open{
-    transform: translateX(25px) ;
+    transform: translateX(-25px) ;
 }
 
 .style-switcher .s-icon{
@@ -56,7 +57,6 @@
 }
 
 .style-switcher .colors{
-
     display: flex;
     flex-wrap: wrap;
     justify-content:space-between;
