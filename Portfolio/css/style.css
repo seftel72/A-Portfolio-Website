@@ -335,7 +335,7 @@ h3.my-profession{
     top:0px;     
 }
 
-.home-img::after{
+/* .home-img::after{
     content:'';
     position: absolute;
     height: 50px;
@@ -343,7 +343,7 @@ h3.my-profession{
     border-bottom: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);    
     bottom:0px;
-}
+} */
 
 
 /* About */

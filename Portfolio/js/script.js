@@ -1,4 +1,4 @@
-/* =====================================  typing animation  ===========================*/
+/* =========>>> typing animation  */
 
 var typed = new Typed(".typing", {
     strings:["Web Designer", "Web Developer", "Graphic Designer", "YouTuber"],
