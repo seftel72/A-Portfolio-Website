@@ -1,16 +1,14 @@
 :root{
-    --skin-color: #00ADEF;
-
     --bg-black-900:#f2f2fc;
     --bg-black-100:#fdf9ff;
     --bg-black-50:#e8dfec;
     
-    --text-black-700:grey;
-    --text-black-900:black;    
+    --text-black-700:rgb(70, 65, 65);
+    --text-black-900:rgb(0, 0, 0);    
 }
 
 body.dark{
-    --skin-color: #00ADEF;
+    --skin-color: #f36e23;
 
     --bg-black-900:#151515;
     --bg-black-100:#222222;
@@ -23,7 +21,7 @@ body.dark{
 body{
     line-height: 1.5;
     font-size: 16px;
-    font-family: 'Libre Caslon Display', sans-serif;
+    font-family: 'Libre Caslon Display', Arial, Helvetica, sans-serif;
 }
 
 /* universal selector */
@@ -185,10 +183,17 @@ textarea {
 .aside .logo a span{
     color: var(--skin-color);
     font-family: "Raleway", sans-serif;
-    font-size: 50px;    
+    font-size: 40px;    
 }
 
-.aside .logo a::before {
+.aside .logo p{
+    color: var(--skin-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    text-align: center;   
+}
+
+/* .aside .logo a::before {
     content: : '';
     position: absolute;
     width: 20px;
@@ -208,7 +213,7 @@ textarea {
     border-left: 5px solid var(--skin-color);
     top : 0;
     right: 0;
-}
+} */
 
 .aside .nav-toggler{
     height: 40px;
@@ -322,14 +327,13 @@ h3.my-profession{
 
 .home .home-img{
     flex:0 0 40%;
-    max-width: 40%;    
+    max-width: 30%;    
     text-align: center;    
     position: relative;   
 }
 
 .home .home-img img{
-    margin:10% 0px 10% 0px ;
-    border-radius:10px;
+    margin:10% 0px 10% 0px;    
     max-width: 60%;    
 }
 
@@ -338,9 +342,11 @@ h3.my-profession{
     position: absolute;
     height: 50px;
     width: 50px;
+    border-radius: 5px;
     border-top: 5px solid var(--skin-color);
     border-left: 5px solid var(--skin-color);
-    left: 10px;
+    top: 0px;
+    left: 20px;
 }
 
  .home-img::after{
@@ -348,10 +354,11 @@ h3.my-profession{
     position: absolute;
     height: 50px;
     width: 50px;
+    border-radius: 5px;
     border-bottom: 5px solid var(--skin-color);
     border-right: 5px solid var(--skin-color);    
     bottom:0px;
-    right: 10px;
+    right: 20px;
 }
 
 
@@ -411,7 +418,7 @@ border-bottom:1px solid var(--bg-black-50);
     margin-top: 30px;
 }
 
-.about .about-content .personal-info .buttons .btn{
+.about .about-content .personal-info .buttons .btn{       
     margin-right: 15px;
     margin-top: 10px;
 }
