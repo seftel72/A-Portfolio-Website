@@ -4,30 +4,32 @@ html {
   height: 100%;
   font-family: 'Montserrat', sans-serif;
 
-  background: url(/images/header.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(/images/logo.png) no-repeat center center fixed; 
+  -webkit-background-size: auto;
+  -moz-background-size: auto;
+  -o-background-size: auto;
+  background-size:auto;
 }
 
 h1{
-  color: #fff;
-  text-align: center;
-  margin-bottom: 15rem;  
+  color: #605ef5; 
+  margin: 75px auto;   
 }
 
 hr {
-    margin: 10px auto;
+    margin: 100px auto;
     color: #00ADEF;    
-    max-width: 65px;
-    opacity: 1;  
+    max-width: 100px;
+    opacity: 0;  
+}
+
+.row{
+ 
 }
 
 .buffer{
   height: 2rem;
 }
-
 
 .btn{
   font-weight: 700;
