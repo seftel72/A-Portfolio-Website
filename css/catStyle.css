@@ -12,19 +12,16 @@ html {
 }
 
 h1{
-  color: #605ef5; 
-  margin: 75px auto;   
+  color: rgb(13, 134, 214); 
+  margin: 100px auto;
 }
 
-hr {
-    margin: 100px auto;
-    color: #00ADEF;    
-    max-width: 100px;
-    opacity: 0;  
+hr{
+  width: 75px;
+  margin: 20px 0px 0px 50%;
 }
-
-.row{
- 
+p{
+  margin: 20px 0px 0px 5rem;
 }
 
 .buffer{
@@ -34,8 +31,13 @@ hr {
 .btn{
   font-weight: 700;
   border-radius: 300px;
+  /* 1.5 rem corrects for bootstrap gutter */
+  margin: 20px 0px 0px 5rem;
   padding: 1rem 2rem;
   text-transform: uppercase;
-  background-color: rgb(206, 51, 24);
-  border-color: rgb(206, 51, 24);
 }
+
+
+
+
+
