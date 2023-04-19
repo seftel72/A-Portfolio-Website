@@ -276,7 +276,7 @@ textarea {
     padding: 5px 15px;
 }
 
-.aside .nav li a.active{
+.aside .nav li a.active-link:hover{
     color: var(--skin-color);
 }
 
