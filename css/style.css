@@ -54,7 +54,7 @@ textarea {
  
 .section{
     background:var(--bg-black-900);
-    min-height: 100vh;
+    min-height: 75vh;
     display: block; 
     padding:0 30px ;
     top: 0;
@@ -292,7 +292,7 @@ textarea {
 
 /* home */
 .home{
-    min-height: 100vh;
+    min-height: 75vh;
     display: flex;
     color: var(--text-black-900);
 }
@@ -564,6 +564,7 @@ position: relative;
 /* sevice section */ 
 
 .service .container {
+    min-height: 75vh;
     padding-bottom: 10px;
 }
 
@@ -609,12 +610,12 @@ position: relative;
 }
 
 .service .service-item .service-item-inner:hover .icon .fa{
-    font-size: 25px;
+    font-size: 26px;
     color: #ffffff;
 }
 
 .service .service-item .service-item-inner h4{
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
     color: var(--text-black-900);
     font-weight: 700;
@@ -622,14 +623,14 @@ position: relative;
 }
 
 .service .service-item .service-item-inner p{
-    font-size: 16px;
+    font-size: 18px;
     color: var(--text-black-700);
     line-height: 25px;
 }
 
 /* portfolio section */
 
-.portfolio .container{
+.portfolio .container{   
     padding-bottom: 10px;
 }
 
