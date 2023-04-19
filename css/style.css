@@ -12,7 +12,7 @@ body.dark{
 
     --bg-black-900:#151515;
     --bg-black-100:#222222;
-    --bg-black-50:#393939;
+    --bg-black-50:#35363a;
     
     --text-black-700:#ffffff;
     --text-black-900:#ffffff; 
@@ -45,6 +45,11 @@ ul{
 textarea {
     font-family: inherit;
     font-size: inherit;
+ }
+
+ hr{
+    margin: 10px auto;
+    opacity: 0;
  }
  
 .section{
