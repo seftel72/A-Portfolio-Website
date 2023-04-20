@@ -648,7 +648,7 @@ position: relative;
 
 
 .portfolio .portfolio-item {
-    flex: 0 0 33.333%%;
+    flex: 0 0 33.333%;
     max-width: 100%;
     margin-bottom: 40px;
 }
