@@ -54,7 +54,7 @@ textarea {
  
 .section{
     background:var(--bg-black-900);
-    min-height: 75vh;
+    min-height: 100vh;
     display: block; 
     padding:0 30px ;
     top: 0;
@@ -292,7 +292,7 @@ textarea {
 
 /* home */
 .home{
-    min-height: 75vh;
+    min-height: 100vh;
     display: flex;
     color: var(--text-black-900);
 }
@@ -564,12 +564,12 @@ position: relative;
 /* sevice section */ 
 
 .service .container {
-    min-height: 75vh;
+    min-height: 100vh;
     padding-bottom: 10px;
 }
 
 .service .service-item{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     flex: 0 0 33.333%;
     max-width: 33.333%;
 }
@@ -630,7 +630,8 @@ position: relative;
 
 /* portfolio section */
 
-.portfolio .container{   
+.portfolio .container{ 
+    min-height: 100vh;
     padding-bottom: 10px;
 }
 
