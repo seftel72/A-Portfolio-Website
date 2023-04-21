@@ -48,8 +48,8 @@ textarea {
  }
 
  hr{
-    margin: 20px 0px 20px 0px;
-    opacity: 1;
+    margin: 50px 0px 50px 0px;    
+    opacity: 0;
  }
  
 .section{
@@ -93,9 +93,10 @@ textarea {
 }
 
 .section-title h2{
-    font-size: 40px;
+    font-size: 30px;
     color: var(--text-black-900);
     font-weight:700;
+    text-transform: uppercase;
     position: relative;
 }
 
@@ -631,19 +632,19 @@ position: relative;
 /* portfolio section */
 
 .portfolio .container{ 
-    min-height: 100vh;
+    min-height: 75vh;
     padding-bottom: 10px;
 }
 
 .portfolio .portfolio-heading{
     flex: 0 0 100%;
     max-width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 40px;    
 }
 
-.portfolio .portfolio-heading h2{
+.portfolio .portfolio-heading h2{    
     color: var(--text-black-900);
-    font-weight: 500;
+    font-weight: 700;
 }
 
 
