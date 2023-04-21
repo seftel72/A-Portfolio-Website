@@ -51,6 +51,14 @@ textarea {
     margin: 50px 0px 50px 0px;    
     opacity: 0;
  }
+
+ h3{
+    text-align: center;
+ }
+
+ p{
+    text-align: center;
+ }
  
 .section{
     background:var(--bg-black-900);
