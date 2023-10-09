@@ -79,7 +79,7 @@ textarea {
 
 .container{
     max-width: 90rem;
-    width: 100%;       
+    width: 100%;      
 }
 
 .section .container{
@@ -311,7 +311,7 @@ h3.hello span{
     font-family:'Raleway';
     font-size: 30px;
     font-weight: 700;
-    color: var(--skin-color);
+    
 }
 
 h3.my-profession{
@@ -375,7 +375,7 @@ h3.my-profession{
 
 .about .about-content .about-text{
     flex: 0 0 100%;
-    max-width: 100%;
+    max-width: 100%;    
 }
 
 .about .about-content .about-text h3{
@@ -390,7 +390,7 @@ h3.my-profession{
 }
 
 .about .about-content .about-text p{
-    font-size:16px;
+    font-size:18px;
     line-height:25px;
     color: var(--text-black-700);
 }
