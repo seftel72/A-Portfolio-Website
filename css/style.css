@@ -146,6 +146,7 @@ textarea {
 
 .btn:hover{
     transform: scale(1.05);
+    cursor: pointer;
 }
 
 .shadow-dark{
@@ -198,27 +199,6 @@ textarea {
     text-align: center;   
 }
 
-/* .aside .logo a::before {
-    content: : '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-bottomn: 5px solid var(--skin-color);
-    border-left: 5px solid var(--skin-color);
-    bottom: 0;
-    left: 0;
-}
-
-.aside .logo a::after{
-    content: : '';
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    border-bottomn: 5px solid var(--skin-color);
-    border-left: 5px solid var(--skin-color);
-    top : 0;
-    right: 0;
-} */
 
 .aside .nav-toggler{
     height: 40px;
@@ -264,7 +244,7 @@ textarea {
 }
 
 .aside .nav{
-   /* margin-top: 50px;*/
+   margin-top: 150px;
 }
 
 .aside .nav li{
@@ -325,7 +305,7 @@ h3.my-profession{
 }
 
 .home-info p{
-    margin-bottom: 70px;
+    margin-bottom: 10px;
     font-size: 18px;
     color: var(--text-black-700);    
 }
@@ -406,7 +386,7 @@ h3.my-profession{
 }
 
 .about .about-content .personal-info .info-item p{
-font-weight: 600;
+font-weight: 700;
 padding: 10px 0;
 font-size: 16;
 color: var(--text-black-900);
@@ -561,72 +541,6 @@ position: relative;
     color: var(--text-black-700);
 }
 
-/* sevice section */ 
-
-.service .container {
-    min-height: 100vh;
-    padding-bottom: 10px;
-}
-
-.service .service-item{
-    margin-bottom: 10px;
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-}
-
-.service .service-item .service-item-inner {
-    background-color:  var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
-    border-radius: 10px;
-    padding: 30px;
-    text-align: center;
-    transition: all 0.35s ease;
-}
-
-.service .service-item .service-item-inner:hover{
-    box-shadow: 0 0 20px rgba(48, 46, 77, alpha), 0.15);
-}
-
-.service .service-item .service-item-inner .icon {
-    height: 60px;
-    width: 60px;
-    border-radius: 50%;
-    display: block;
-    
-    margin: 0 auto 30px;
-    text-align: center;
-    transition: all 0.3s ease;
-}
-
-.service .service-item .service-item-inner .icon .fa {
-    font-size: 40px;
-    line-height: 60px;
-    color: var(--skin-color);
-    transition: all 0.3s ease;
-}
-
-.service .service-item .service-item-inner:hover .icon{
-    background-color:var(--skin-color);
-}
-
-.service .service-item .service-item-inner:hover .icon .fa{
-    font-size: 26px;
-    color: #ffffff;
-}
-
-.service .service-item .service-item-inner h4{
-    font-size: 20px;
-    margin-bottom: 15px;
-    color: var(--text-black-900);
-    font-weight: 700;
-    text-transform: capitalize;
-}
-
-.service .service-item .service-item-inner p{
-    font-size: 18px;
-    color: var(--text-black-700);
-    line-height: 25px;
-}
 
 /* portfolio section */
 
@@ -729,50 +643,6 @@ position: relative;
     font-weight: 400;
 }
 
-.contact .contact-form {
-    flex: 0 0 100%;
-    max-width: 100%;
-}
-
-.contact .contact-form .col-6{
-    flex: 0 0 50%;
-    max-width: 50%;   
-}
-
-.contact .contact-form .col-12{
-    flex: 0 0 100%;
-    max-width: 100%;       
-}
-
-.contact .contact-form .form-item{
-    margin-bottom: 30px;
-}
-
-.contact .contact-form .form-item .form-control{
-    width: 100%;
-    height: 50px;
-    border-radius: 5px;
-    background: var(--bg-black-100);
-    border: 1px solid var(--bg-black-50);
-    padding: 10px 25;
-    font-size: 16px;
-    color: var(--text-black-700);
-    transition: all 0.3s ease;
-}
-
-
-.contact .contact-form .form-item .form-control:focus{
-    box-shadow: 0 0 20px rgba(48, 47, 77, 0.15);
-}
-
-.contact .contact-form .form-item textarea.form-control{
-    height: 140px;
-}
-
-.contact .contact-form .btn{
-    height: 50px;
-    padding: 0 50px;
-}
 
 @media (max-width:1199px){
     .aside{
